@@ -1,5 +1,4 @@
-
-print ("This is intended for foot to meters conversion")
+#This is intended for foot to meters conversion
 
 foot = float(input("Please input feet: "))
 meters = float(foot * .3048)
