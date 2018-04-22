@@ -1,4 +1,4 @@
-print ("This  is intended for meter-inch conversion")
+#This  is intended for meter-inch conversion
 meters = float(input("Please input meters: "))
 cms = float(meters * 100)
 inches = float(cms * .3937)
