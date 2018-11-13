@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt 
 
 
-#score plotting utility v0.1
-
-msgOne = input("Welcome to score plotting utility!")
+#score plotting utility v0.1.1
+#delivered by yours truly @anchrone
+msgOne = input("I plot student scores!")
 
 
 
@@ -15,6 +15,9 @@ scores =   []
 
 
 #experimental functionality -end
+
+#listing names and scores
+
 for a in range(0,peopleLimit):
     fName = str(input("Name of the student: "))
     names.append(fName)
@@ -25,7 +28,6 @@ for a in range(0,peopleLimit):
     
 # experimental functionality
 
-#script for listing names and scores
 
 
 plt.scatter(names,scores)
