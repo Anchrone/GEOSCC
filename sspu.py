@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt 
 
 
-#score plotting utility v0.1.1
+#student score plotting utility v0.1.2
 #delivered by yours truly @anchrone
 msgOne = input("I plot student scores!")
 
@@ -26,7 +26,6 @@ for a in range(0,peopleLimit):
 
             
     
-# experimental functionality
 
 
 
