@@ -1,20 +1,12 @@
 import matplotlib.pyplot as plt 
 
-
 #student score plotting utility v0.1.2
 #delivered by yours truly @anchrone
+
 msgOne = input("I plot student scores!")
-
-
-
 peopleLimit = int(input("How many people do you have in class? Please input digits: "))
 names  =   []
 scores =   []
-
-#experimental functionality -begin
-
-
-#experimental functionality -end
 
 #listing names and scores
 
@@ -23,11 +15,6 @@ for a in range(0,peopleLimit):
     names.append(fName)
     studentScore = int(input("Score of this student: "))
     scores.append(studentScore)
-
-            
-    
-
-
 
 plt.scatter(names,scores)
 plt.plot(names,scores)
